@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas </title>
+</head>
+
+<body>
+    <h1>Construindo uma tabela</h1>
+    <!--TABLE= tabela
+        TABLE RON= linha de tabela ( as linhas da esquerda pra direita) tag - <tr>
+        TABLE DATA= dado da célula ( QUADRADINHOS ) tag (td)-->
+    <table border="10" width="100%"> <!--border- nao é a forma correta mais por enquanto vai ficae assim-->
+        <tr>
+            <td>nome</td>
+            <Td>sobre nome</Td>
+            <td> gosto músical</td>
+        </tr>
+        <tr>
+            <td>Sthefany</td>
+            <td>Oliveira</td>
+            <td>um pouco de tudo</td>
+
+        </tr>
+        <tr>
+            <td>Cibelle</td>
+            <td>silva</td>
+            <td>depende</td>
+        </tr>
+        <tr>
+            <td>andrey</td>
+            <td>max</td>
+            <td>Heavy metal</td>
+        </tr>
+    </table>
+
+    <p>Separando tabela</p>
+    <!--TABLE
+          CAPTION (TÍTULO DA TABELA)
+          THEAD (CABEÇA DA TABELA)
+               TH
+               TR(adicionar)
+               TD (dado normal)
+          TBODY( conteudo)
+              TR (adicina uma linha)
+              TH(titulo por coluna)
+              TD (dados)
+          TFORD
+             TR
+             TH
+             TD  
+                MESCLAR COLUNA= colspan
+                MESCLAR LINHA= rowspan
+                -->
+    <table border="10" width="100%">
+
+        <caption>Dinheiro poupado em 2026</caption>
+        <thead>
+            <th>Mes</th>
+            <th>poupança</th>
+            <th>MESCLANDO CÉLULAS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$50,00</td>
+                <td>R$100,00</td>
+            </tr>
+             <tr>
+                <td>Fevereiro</td>
+                <td>R$00,50</td>
+                <td>R$10,00</td>
+            </tr>
+            <tr>
+                <td>março</td>
+
+                <td colspan="2">MESCLANDO</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

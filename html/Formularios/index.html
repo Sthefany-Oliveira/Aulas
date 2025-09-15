@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Trabalhando com Formularios</h1>
+    <p> formularios simples</p>
+
+    <form action="Cadrasto.php" method="post">
+     <p><label for="inome"> nome: </label> 
+        <input type="text" name="nome" id="inome">
+     </p>   
+     <p><label for="isobrenome">sobrenome:</label>
+        <input type="text" name="sobrenome" id="isobrenome">
+     
+    </p>  
+
+     <p>
+        <input type="submit" value="crie a sua conta" >
+     </p>
+     <!--Form action - a açao do formulario  logo apos o envio-->
+     <!--tag-(input) define uma area onde vao colocar a informaçao (type) o tipo de informaçao que vai ser colocada ali-->
+     <!--tag (name)colocar o nome (id) criar um indentificador unico--> <!--tag (value)-botao para enviar-->
+    <!---(label)é uma etiqueta, ele associa uma legenda para (input) -->
+
+    </form>
+    
+    <h1>Formulario de Cadrasto</h1>
+    <form action="" method="post">
+
+    <p>
+        <label for="inome"> Nome:</label>
+    <input type="nome" name="nome" id="inome">
+    </p>  
+
+     <p>
+        <label for="iemail"> email:</label>   
+     <input type="email" name="email" id="iemail"></p>
+
+    <p>
+        <label for="isenha">senha:</label>
+    <input type="password" name="senha">
+    </p>
+    
+    <!--Botão de opçao-(radio), só permite marcar uma opçao--->
+
+    <p>
+         Cor favorita
+        <input type="radio" name="ivermelho" id="ivermelho">
+        <label for="ivermelho">Vermelho</label>
+        <input type="radio" name="roxo" id="iroxo">
+        <label for="iroxo">Roxo</label>
+    </p>
+    <p>
+    <input type="checkbox" name="" id="">
+    <select name="" id=""></select>
+    <option value="Sp">São Paulo</option>
+    <option value="RJ">Rio de Janeiro</option>
+    
+    </p>
+    
+    
+    
+    
+    <input type="submit">
+    </form>
+
+</body>
+</html>

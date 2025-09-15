@@ -1,0 +1,31 @@
+ <style>
+        #p_azul{
+          color: rgb(23, 19, 235);  
+        }
+        #p_vermelho{
+            color: rgb(231, 17, 17);
+        }
+
+    </style>
+  <header>
+    <nav></nav>
+  </header>  
+
+    <h1> Elementos Estruturais</h1>
+
+    <form action="">
+        <label for="inome">nome</label>
+        <input type="text" name="nome" id="inome" required placeholder="Digite seu nome" >
+        <input type="submit" value="enviar">
+
+
+
+
+
+
+
+
+ 
+ <p id="p_azul">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus doloribus, ab veniam magnam nesciunt unde, quaerat harum facere assumenda voluptatem quas, alias expedita quia quo voluptatum aliquid consequatur. Id, ratione!</p>
+
+        <p id="p_vermelho"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, debitis. Atque fuga minima illum adipisci cupiditate a asperiores qui veritatis possimus aut libero quisquam et beatae harum, sunt aliquam unde!</p>
